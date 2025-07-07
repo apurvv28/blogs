@@ -2,7 +2,6 @@ export const typographyTheme = {
   typography: {
     fontFamily: '"Poppins", sans-serif',
     
-    // Hero/Page titles
     h1: {
       fontSize: '2.5rem',
       fontWeight: 700,
@@ -19,7 +18,6 @@ export const typographyTheme = {
       },
     },
     
-    // Section titles
     h2: {
       fontSize: '2rem',
       fontWeight: 600,
@@ -36,7 +34,6 @@ export const typographyTheme = {
       },
     },
     
-    // Subsection titles
     h3: {
       fontSize: '1.75rem',
       fontWeight: 600,
@@ -52,7 +49,6 @@ export const typographyTheme = {
       },
     },
     
-    // Card titles
     h4: {
       fontSize: '1.5rem',
       fontWeight: 600,
@@ -65,7 +61,6 @@ export const typographyTheme = {
       },
     },
     
-    // Blog post titles
     h5: {
       fontSize: '1.25rem',
       fontWeight: 600,
@@ -78,7 +73,6 @@ export const typographyTheme = {
       },
     },
     
-    // Blog card titles
     h6: {
       fontSize: '1.125rem',
       fontWeight: 600,
@@ -91,7 +85,6 @@ export const typographyTheme = {
       },
     },
     
-    // Body text
     body1: {
       fontSize: '1rem',
       fontWeight: 400,
@@ -104,7 +97,6 @@ export const typographyTheme = {
       },
     },
     
-    // Secondary body text
     body2: {
       fontSize: '0.875rem',
       fontWeight: 400,
@@ -117,7 +109,6 @@ export const typographyTheme = {
       },
     },
     
-    // Caption text
     caption: {
       fontSize: '0.75rem',
       fontWeight: 400,
@@ -127,7 +118,6 @@ export const typographyTheme = {
       },
     },
     
-    // Button text
     button: {
       fontSize: '0.875rem',
       fontWeight: 500,
@@ -138,7 +128,6 @@ export const typographyTheme = {
       },
     },
     
-    // Subtitle
     subtitle1: {
       fontSize: '1rem',
       fontWeight: 500,
@@ -151,7 +140,6 @@ export const typographyTheme = {
       },
     },
     
-    // Secondary subtitle
     subtitle2: {
       fontSize: '0.875rem',
       fontWeight: 500,
@@ -166,9 +154,7 @@ export const typographyTheme = {
   },
 };
 
-// Custom typography variants for specific use cases
 export const customTypographyStyles = {
-  // Hero title with gradient
   heroTitle: {
     fontSize: '2.5rem',
     fontWeight: 700,
@@ -189,7 +175,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Section subtitle
   sectionSubtitle: {
     fontSize: '1.125rem',
     fontWeight: 400,
@@ -206,7 +191,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Blog excerpt
   blogExcerpt: {
     fontSize: '0.875rem',
     fontWeight: 400,
@@ -225,7 +209,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Blog title
   blogTitle: {
     fontSize: '1.125rem',
     fontWeight: 600,
@@ -243,7 +226,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Author name
   authorName: {
     fontSize: '0.875rem',
     fontWeight: 500,
@@ -253,7 +235,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Date text
   dateText: {
     fontSize: '0.75rem',
     fontWeight: 400,
@@ -264,7 +245,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Read time
   readTime: {
     fontSize: '0.75rem',
     fontWeight: 400,
@@ -275,7 +255,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Feature title
   featureTitle: {
     fontSize: '1.5rem',
     fontWeight: 600,
@@ -289,7 +268,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Feature description
   featureDescription: {
     fontSize: '1rem',
     fontWeight: 400,
@@ -303,7 +281,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // CTA title
   ctaTitle: {
     fontSize: '2rem',
     fontWeight: 700,
@@ -318,7 +295,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // CTA subtitle
   ctaSubtitle: {
     fontSize: '1.125rem',
     fontWeight: 400,
@@ -333,7 +309,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Footer text
   footerText: {
     fontSize: '0.875rem',
     fontWeight: 400,
@@ -344,7 +319,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Navigation text
   navText: {
     fontSize: '1rem',
     fontWeight: 500,
@@ -354,7 +328,6 @@ export const customTypographyStyles = {
     },
   },
   
-  // Blog content
   blogContent: {
     fontSize: '1.125rem',
     fontWeight: 400,

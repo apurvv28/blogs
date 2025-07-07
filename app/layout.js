@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "YourBrand - Home",
-  description: "Welcome to YourBrand - Your trusted partner for quality products and services",
+  title: "Blogs.io - Home",
+  description: "Welcome to Blogs.io - Your trusted partner for quality products and services",
 };
 
 export default function RootLayout({ children }) {
